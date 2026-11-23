@@ -1,23 +1,25 @@
 # ⚙️ TP4 (part 2) – JavaScript : Manipulation du DOM et mini-application CRUD
 
 ## 🎯 Objectif du TP
+
 L’objectif de ce TP est de vous familiariser avec les **méthodes et propriétés JavaScript** utilisées pour la **manipulation du DOM**.  
 Vous allez mettre en pratique ces notions à travers la réalisation d’une **mini-application “CRUD-Persons”**, décomposée en **6 étapes progressives**.
 
 ---
 
 ## 📘 Ressources fournies
-- Le fichier **`TP4_JS.pdf`** vous guide **étape par étape** dans la réalisation du TP.  
-- Tous les **scripts JavaScript** doivent être écrits dans un **fichier externe** nommé **`script.js`**.  
+
+- Le fichier **`TP4_JS.pdf`** vous guide **étape par étape** dans la réalisation du TP.
+- Tous les **scripts JavaScript** doivent être écrits dans un **fichier externe** nommé **`script.js`**.
 - Chaque script doit commencer par :
-  ```js
+  ````js
   "use strict";
-  ```
-- Votre code doit impérativement être **commenté**, en mentionnant pour chaque concept utilisé le **numéro de la diapositive** du cours.  
+  //slide 51  ```
+  ````
+- Votre code doit impérativement être **commenté**, en mentionnant pour chaque concept utilisé le **numéro de la diapositive** du cours.
   > Exemple : `// Ici on utilise une boucle (slide 45)`
 
-🛑 **Un code sans commentaire est automatiquement rejeté.**  
----
+## 🛑 **Un code sans commentaire est automatiquement rejeté.**
 
 ## 🧭 Déroulement du TP
 
@@ -31,9 +33,10 @@ Vous allez mettre en pratique ces notions à travers la réalisation d’une **m
 
 3. **Réalisation**
    - Chaque étape correspond à un **dossier distinct** : `etape1`, `etape2`, …, `etape6`.
-   - Dans chaque dossier, complétez les fichiers **`index.html`** et **`script.js`** selon les consignes du PDF.
-   - Certaines étapes peuvent aussi inclure un fichier **`style.css`** à compléter quand demandé.
-   - La **dernière étape** du TP consiste à rajouter 3 fonctionnalités supplémentaires de votre choix.
+   - Dans chaque dossier, les fichiers **`index.html`** et **`script.js`** forment une étape autonome.
+   - La progression réalisée est : affichage de la liste, résumé, ajout, suppression, CRUD complet, puis recherche, tri et sauvegarde locale.
+   - La feuille **`style.css`**, partagée par les six pages, fournit la mise en forme.
+   - Ouvrez le fichier `index.html` de l’étape voulue dans un navigateur ; aucun outil de compilation n’est nécessaire.
 
 4. **Soumission**
    - Une fois le travail terminé, exécutez :
@@ -46,29 +49,31 @@ Vous allez mettre en pratique ces notions à travers la réalisation d’une **m
 ---
 
 ## 🧾 Livrables attendus
-- **6 dossiers** correspondant aux **6 étapes du TP**.  
+
+- **6 dossiers** correspondant aux **6 étapes du TP**.
 - Dans chaque dossier doivent se trouver :
-  - `index.html`  
+  - `index.html`
   - (`script.js` et `style.css` lorsqu’ils sont demandés)
 
 ---
 
 ## ✅ Critères d’évaluation
-- Le code est **fonctionnel** (sans erreur dans la console).  
-- Les **commentaires** sont présents et référencent les slides.  
-- Respect des **bonnes pratiques** : `"use strict"`, nommage, indentation.  
+
+- Le code est **fonctionnel** (sans erreur dans la console).
+- Les **commentaires** sont présents et référencent les slides.
+- Respect des **bonnes pratiques** : `"use strict"`, nommage, indentation.
 - Les modifications du DOM correspondent bien aux opérations sur le tableau `persons` (cohérence UI ↔ données).
 
 ---
 
 ## 🧠 Rappel avant soumission
-- Vérifiez l’exécution dans la console du navigateur.  
-- Ne laissez pas de `console.log()` de debug inutiles (ou commentez-les). 
+
+- Vérifiez l’exécution dans la console du navigateur.
+- Ne laissez pas de `console.log()` de debug inutiles (ou commentez-les).
 - Les fonctionnalités de gestion des personnes (ajout, modification, suppression, lecture, mise à jour du résumé) doivent être opérationnelles à l'étape 6.
 
 ---
 
 ## 📎 Lien d’assignement
+
 Le lien GitHub Classroom est disponible sur **Google Classroom**.
-
-
